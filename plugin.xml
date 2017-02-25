@@ -5,7 +5,7 @@
 	<description>Injects cordova and Plugins in the view. Nice when you load Remote Websites</description>
 	<license>MIT</license>
 	<keywords>inject, cordova, javascript</keywords>
-	<repo>https://github.com/fastrde/phonegap-plugin-injectView.git</repo>
+	<repo>https://github.com/mateusbello/cordova-plugin-fastrde-injectview.git</repo>
 	<issue>https://github.com/fastrde/phonegap-plugin-injectView/issues</issue>
 	<js-module src="www/inject.js" name="inject">
 		<clobbers target="inject" />
