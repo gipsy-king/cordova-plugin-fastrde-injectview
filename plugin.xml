@@ -26,15 +26,13 @@
 		</config-file>
 	</platform>
 	<platform name="ios">
-		<header-file src="src/ios/CDVInject.h" />
-		<source-file src="src/ios/CDVInject.m" />
-		<header-file src="src/ios/CDVInjectWebViewDelegate.h" />
-		<source-file src="src/ios/CDVInjectWebViewDelegate.m" />
-		<config-file target="config.xml" parent="/*">
-			<feature name="Inject">
-				<param name="ios-package" value="Inject" />
-				<param name="onload" value="true" />
-			</feature>
-		</config-file>
-	</platform>
+  <header-file src="src/ios/CDVInjectView.h" />
+  <source-file src="src/ios/CDVInjectView.m" />
+    <config-file target="config.xml" parent="/*">
+      <feature name="InjectView">
+        <param name="ios-package" value="CDVInjectView" />
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+  </platform>
 </plugin>
