@@ -1,0 +1,23 @@
+{
+  "name": "cordova-plugin-engage-injectview",
+  "version": "1.0.0",
+  "description": "Inject cordova and plugins to external pages",
+  "main": "plugin.xml",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusbello/cordova-plugin-fastrde-injectview.git"
+  },
+  "keywords": [
+    "inject",
+    "cordova"
+  ],
+  "author": "Mateus Bellozupko <mateus.bellozupko@madetoengage.com> (madetoengage.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateusbello/cordova-plugin-fastrde-injectview/issues"
+  },
+  "homepage": "https://github.com/mateusbello/cordova-plugin-fastrde-injectview#readme"
+}
