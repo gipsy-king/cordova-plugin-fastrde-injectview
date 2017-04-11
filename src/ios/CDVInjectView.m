@@ -4,7 +4,7 @@
 
 - (void)pluginInitialize {
     NSLog(@"loader initializing");
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pageDidLoad:) name:CDVPageDidLoadNotification object:self.webView];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pageDidLoad:) name:CDVPageDidLoadNotification object:nil];
 }
 
 
